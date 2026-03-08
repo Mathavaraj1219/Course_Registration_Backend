@@ -22,6 +22,13 @@ public class Course {
 		this.coursefee = coursefee;
 	}
 
+	
+	public Course() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public Long getCourseId() {
 		return courseId;
 	}

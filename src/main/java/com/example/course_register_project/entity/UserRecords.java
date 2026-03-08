@@ -24,6 +24,13 @@ public class UserRecords {
 		this.original_password = original_password;
 		this.role = role;
 	}
+	
+
+	public UserRecords() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 
 	public String getOriginal_password() {
 		return original_password;

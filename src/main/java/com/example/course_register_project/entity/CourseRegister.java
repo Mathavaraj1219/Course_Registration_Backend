@@ -25,6 +25,11 @@ public class CourseRegister {
 		this.feepayment = feepayment;
 	}
 
+	public CourseRegister() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public Long getId() {
 		return id;
 	}
